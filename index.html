@@ -4,40 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akademnashr</title>
+
+    <!--googl fons-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+ <!--link-->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
      <!--header qismi-->
-     <header>
-        <a href="index.html">
-            <img src="./img/logo.svg" alt="Akademnash logosi" width="227px" height="59.18px">
-         </a>
-         <nav>
+     <header class="site-header">
+        <nav>
+          <div class="nav-logo">
+            <a href="index.html">
+              <img src="./img/logo.svg" alt="Akademnash logosi" width="227px" height="59.18px">
+           </a>
+          </div>
+          <div class="nav-pult">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Disegn</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">About</a></li>
-             </ul>
-         </nav>
-         <a href="#">Ro'yxatdan utish</a>
+              <li><a class="sitenav-link" href="#">Home</a></li>
+              <li><a class="sitenav-link" href="#">Disegn</a></li>
+              <li><a class="sitenav-link" href="#">Blog</a></li>
+              <li><a class="sitenav-link" href="#">About</a></li>
+           </ul>
+          </div>
+           </nav>
+           <a href="#" class="main-botton">Ro'yxatdan utish</a>
     </header>
 
     <main>
     <!--HERO-->
-    <section>
-        <div>
-            <hr>
-        <h2>TRILLION SIZBILAN</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime minus deleniti <br> voluptatibus nam adipisci porro corrupti temporibus omnis veniam vel reprehenderit <br> soluta eos unde pariatur atque reiciendis tempora, saepe eum.</p>
-        <a href="#">Buyurtma berish</a>
+    <section class="hero">
+        <div class="hero-content">
+            <hr class="hero-hr">
+        <h2 class="hero-sarlavhasi">TRILLION SIZBILAN</h2>
+        <p class="hero-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime minus deleniti <br> voluptatibus nam adipisci porro corrupti temporibus omnis veniam vel reprehenderit <br> soluta eos unde pariatur atque reiciendis tempora, saepe eum.</p>
+        <a href="#" class="main-botton">Buyurtma berish</a>
         </div>
 
-        <img src="./img/python-book.jpg" alt="1-kitob"  width="510px" height="510px">
+        <img  class="hero-img" src="./img/python-book.jpg" alt="1-kitob"  width="510px" height="510px">
     </section>
 
         <!--FEATURES-->
    <section>
-     <hr>
+    <hr class="hero-hr">
      <h2>Nega aynan TRILLION</h2>
 
   <ul>
@@ -75,7 +87,7 @@
         <h2>Bolalar kitobi uchun ajoyib aksiya</h2>
         <p>Ertaklar, sherlar, asarlar, fikrni ustirish uchun turle mashq qo'llanmalari va komekslar</p>
         <p>Aksiyada eng katta tuplamda <strong>50 ta kitob</strong>ni <strong>350 ming</strong> so'mga (aslida 385 ming so'mga) sotib olishingiz mumkin. </p>
-        <a href="#">Buyurtma berish</a>
+        <a href="#" class="main-botton">Buyurtma berish</a>
       </div>
    <img src="./img/sale-img@2x.jpg" alt="2-kitob" width="440px" height="440px">
    </section>
