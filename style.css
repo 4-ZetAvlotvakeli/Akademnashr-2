@@ -4,10 +4,24 @@
     box-sizing: border-box;
 } */
 
+body{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Robobto", "Arial", sans-serif;
+    letter-spacing: 0.5px;
+}
 .site-header{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
     background-color: #fff;
 }
+.site-header-actions{
+    display: flex;
+    align-items: center;
+}
 .sitrnav-list{
+    display: flex;
     list-style: none;
 }
 .sitenav-link{
@@ -27,6 +41,9 @@
     text-decoration: none;
 }
 .hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #252420;
     color: #fff;
 }
@@ -42,22 +59,23 @@
 .hero-sarlavhasi{
     font-style: 40px;
     line-height: 1.2;
-    letter-spacing: 0.5px;
+    font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;
 }
 .hero-img{
     width: 510px;
     height: 510px;
 }
-.hero-text{
-    font-style: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.5px;
-}
 .features-heading{
     width: 440px;
     font-style: 72px;
     line-height: 1.2;
+    font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;
     letter-spacing: 0.5px;
+}
+.feature-list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
 }
 .feature{
     width: 340px;
@@ -70,14 +88,12 @@
 .feature-title{
     font-size: 24px;
     line-height: 1.2;
-    letter-spacing: 0.5px;
-}
-.feature-info{
-    font-style: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.5px;
+    font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;
 }
 .promo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #252420;
     color: #fff;
 }
@@ -87,10 +103,7 @@
 .promo-heading{
     font-style: 40px;
     line-height: 48px;
-}
-.promo-text{
-    font-size: 16px;
-    line-height: 1.5;
+    font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;
 }
 .promo-highlight{
     color: #ff7500;
@@ -103,19 +116,29 @@
 .site-footer{
     background-color: #f8f8f8;
 }
+.site-footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .site-footer ul{
     list-style: none;
+}
+.site-footer-sociols{
+    display: flex;
 }
 .site-footer-hr{
     height: 2px;
     background-color: rgba(37, 36, 32, 0.5);
 }
+.site-footer-bottom{
+    display: flex;
+}
 .site-fooret-links{
     width: 224px;
+    line-height: 19px;
 }
 .site-fooret-links a{
-    font-style: 16px;
-    line-height: 19px;
     color: #252420;
     text-decoration: none;
 }
