@@ -7,6 +7,9 @@
 .site-header{
     background-color: #fff;
 }
+.sitrnav-list{
+    list-style: none;
+}
 .sitenav-link{
     font-size: 13px;
     line-height: 15px;
@@ -100,7 +103,19 @@
 .site-footer{
     background-color: #f8f8f8;
 }
+.site-footer ul{
+    list-style: none;
+}
 .site-footer-hr{
     height: 2px;
     background-color: rgba(37, 36, 32, 0.5);
+}
+.site-fooret-links{
+    width: 224px;
+}
+.site-fooret-links a{
+    font-style: 16px;
+    line-height: 19px;
+    color: #252420;
+    text-decoration: none;
 }
